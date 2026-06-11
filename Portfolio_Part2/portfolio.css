@@ -1,0 +1,80 @@
+body {
+    font-family: "JetBrains Mono", monospace;
+    padding: 0.5rem;
+    background-image: url(star.jpeg);
+}
+
+h2 + table {
+    margin-top: 1rem;
+} 
+
+table + h2 {
+    margin-top: 2rem;
+}
+
+.white {
+    color: white
+}
+
+.italic {
+    font-style: italic;
+}
+
+.iframe_vid {
+    text-align: center;
+}
+
+#header_text {
+    text-align: right;
+}
+
+#intro_header {
+    margin-bottom: 0rem;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.underline {
+    text-decoration: underline;
+}
+
+
+#famous_bh{
+    --alternating_color1: #D6E4F0;  
+    --alternating_color2: #3A6EA5;
+}
+
+#famous_bh th{
+    background-color: white;
+}
+
+#famous_bh > h2 {
+    text-align: center;
+}
+
+#famous_bh table, #famous_bh th, #famous_bh td {
+        border: 0.1rem solid gray;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+}
+
+#famous_bh tr:nth-child(2n + 1) {
+    background-color: var(--alternating_color1)
+}
+
+#famous_bh tr:nth-child(2n) {
+    background-color: var(--alternating_color2)
+}
+
+
+#nasa_logo {
+    width: 10rem;
+    display: inline-block;
+}
+
+
+#blue_border  {
+    border: 0.5rem ridge #D6E4F0;
+    padding: 0.5rem;
+}
